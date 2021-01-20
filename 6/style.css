@@ -1,0 +1,13 @@
+p {
+    max-width: 400px;
+    font-size: 25px;
+}
+#arrow {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    z-index: 99;
+    cursor: pointer;
+}

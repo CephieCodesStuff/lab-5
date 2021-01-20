@@ -1,0 +1,3 @@
+function surname() {
+    alert("Николайчик");
+}

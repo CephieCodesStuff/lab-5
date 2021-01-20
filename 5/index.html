@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="5.js"></script>
+</head>
+<body>
+<div id="calc">
+    <input type="number" value="0" id="display" disabled />
+    <div id="control">
+        <button class="wide blue" onclick="C()">C</button>
+        <button onclick="state_change('/')">/</button>
+        <button onclick="sum(7)">7</button>
+        <button onclick="sum(8)">8</button>
+        <button onclick="sum(9)">9</button>
+        <button onclick="state_change('*')">x</button>
+        <button onclick="sum(4)">4</button>
+        <button onclick="sum(5)">5</button>
+        <button onclick="sum(6)">6</button>
+        <button onclick="state_change('-')">-</button>
+        <button onclick="sum(1)">1</button>
+        <button onclick="sum(2)">2</button>
+        <button onclick="sum(3)">3</button>
+        <button onclick="state_change('+')">+</button>
+        <button onclick="sum(0)" class="wide">0</button>
+        <button onclick="calc()" class="green">=</button>
+    </div>
+</div>
+</body>
+</html>
